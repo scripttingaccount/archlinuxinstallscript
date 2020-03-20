@@ -10,7 +10,9 @@ first script installs an arch linux distribution with a seperate usb for an encr
 second script then configures the new environment to install everthing up until a dwm st and tmux configuration
 systemctl units files are used to put dwm st and tmux together as systemd user services 
 upon logging in as a newly created user
+
 simply utilize systemctl --user start <unit_file_to_be> in order to begin all services again dwm st tmux. 
+
 xorg@.socket
 xorg@.service
 dwm.service
