@@ -14,7 +14,7 @@ sudo pacman -S alsa-utils
 sudo pacman -S xorg-xinit
 sudo pacman -S tmux
 sudo pacman -S gvim
-Sudo pacman -S ttf-anonymous-pro
+sudo pacman -S ttf-anonymous-pro
 echo -e "[ setting new user account: ] "
 read -p "[ please enter user name new user account: ] " USER_NAME
 useradd -m -s /bin/bash ${USER_NAME}
@@ -65,7 +65,7 @@ sudo -u ${USER_NAME} sed -i '/xterm -geometry 80x20+494-0 &/d' /home/${USER_NAME
 sudo -u ${USER_NAME} sed -i '/xclock -geometry 50x50-1+1 &/d' /home/${USER_NAME}/.xinitrc
 sudo -u ${USER_NAME} sed -i '/xterm -geometry 80x50+494+51 &/d' /home/${USER_NAME}/.xinitrc
 sudo -u ${USER_NAME} sed -i '/xterm -geometry 80x66+0+0 -name login/d' /home/${USER_NAME}/.xinitrc
-sudo -u ${USER_NAME} sed -i '\$aexec dwm' /home/${USER_NAME}/.xinitrc
+sudo -u ${USER_NAME} sed -i "\$aexec dwm/" /home/${USER_NAME}/.xinitrc
 cat <<EOT >> /etc/X11/Xwrappper.config
 allowed_users=anybody
 needs_root_rights=yes
