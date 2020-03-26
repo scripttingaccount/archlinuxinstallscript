@@ -11,7 +11,7 @@ second script then configures the new environment to install everthing up until 
 systemctl units files are used to put dwm st and tmux together as systemd user services 
 upon logging in as a newly created user
 
-simply utilize systemctl --user start <unit_file_to_be> in order to begin all services again dwm st tmux. 
+utilize systemctl --user start <unit_file_to_be> in order to begin all services again dwm st tmux. 
 
 xorg@.socket
 xorg@.service
@@ -21,15 +21,12 @@ tmux.service
 
 upon first inspection tmux will appear not to be running however it's in the background 
 running tmux or (and then) tmux ls should give you the session already open in as well as creating a new one
-ultimately this is good I believe as it will allow for automating session environments upon login or boot 
+this is good for latter session automation
 
-things to add. 
-automating session environments 
-firewall 
-hardening 
-virtualization
-selinux policies 
-money 
+still needs
+fixing auto launch dwm from dwm.service
+session automation 
+persistent firewall configuration/service
+hardening as per the arch wiki
 
-in case I redistribute this on other accounts
 A.M.S wrote this 
