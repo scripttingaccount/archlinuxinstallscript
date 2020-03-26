@@ -4,7 +4,7 @@ proceed with caution. archlinux installation script one and two tested against v
 more testing and debugging neccesary 
 
 These two scripts are meant to be utilitzed alongside not from within an arch linux iso usb
-havent been tested together or in tandem, however in theory should work aside from minor bugs
+it doesnt actually matter. Once logging into root from new system just run userconfig.sh as root 
 
 first script installs an arch linux distribution with a seperate usb for an encrypted boot paritition
 second script then configures the new environment to install everthing up until a dwm st and tmux configuration
