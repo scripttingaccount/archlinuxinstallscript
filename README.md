@@ -13,6 +13,7 @@ upon logging in as a newly created user
 
 utilize systemctl --user start <unit_file_to_be> in order to begin all services again dwm st tmux. 
 
+facilitation of more cryptsetup options 
 xorg@.socket
 xorg@.service
 dwm.service
