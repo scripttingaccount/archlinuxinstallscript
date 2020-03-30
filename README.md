@@ -30,4 +30,4 @@ session automation
 persistent firewall configuration/service
 hardening as per the arch wiki
 
-A.M.S wrote this 
+A.M.S
